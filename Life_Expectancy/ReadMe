@@ -1,1 +1,32 @@
+"210 Years of Global Progress: Life Expectancy, Population, and GDP on the Rise!"
 
+Project Overview:
+In this project, I will employ some of the Power BI skills I have learned to construct a series of related reports and a dashboard from a single data source. I will be using visualizations that include scatter charts and bar charts to create reports that will provide insight about our dataset, including Life Expectancy by Year and GDP Per Capita by Year. 
+Description of the dataset:
+The Gapminder dataset SampleDataWS combines data from multiple sources into coherent time-series information about life expectancy over time for countries and regions around the world.
+•	Note:
+    o	 Australia has not been considered as a continent rather it has been grouped with Asia
+    o	North America and South America have also been grouped as Americas
+    o	There is no data for Antarctica
+    o	There is no data for Low-Income Earners in Europe
+
+Clean, Transform, and Load the Data:
+Fix Data Import Issues:
+•	The errors I received are mainly due to several cells containing NA in the life_exp column. To resolve this issue, convert the error values to null and then the “life_exp” data type should be changed to Decimal Number
+•	There are also some errors in the “year” column. To resolve this issue, errors are replaced with the value 1919. The guidelines suggest changing an initial error to 1919 in the year column when importing and transforming the data. When I looked closely, I saw that the dataset was missing from the decade for 1820. Making this change allowed Power BI to build the correct visualization.
+Here are some cleaning and transformation tasks performed:
+•	The Name column contains country names and should be renamed to Country.
+•	The name life_exp isn't meaningful. Rename it as Life Expectancy.
+•	We won't use the g77 column for our analysis. Let's remove it.
+Data Analysis Questions:
+1.	Global Trends in Life Expectancy, GDP, and Regional Development (1900-2010)
+2.	How Does Life Expectancy Correlate with GDP Across Regions in 2010?
+3.	What Are the Trends in Population and Income Distribution Across Regions?
+4.	How Does Income Level Impact Life Expectancy Across Regions?
+
+Analysis Findings:
+
+•	From 1900 to 2010, life expectancy steadily increased across regions, with Europe consistently having the highest, followed by the Americas. Asia had the lowest life expectancy until 1920 but surpassed Africa in 1940, remaining third since. This trend is mirrored in both population growth and GDP per capita. There is a clear positive correlation between higher GDP and life expectancy, with Europe leading in both, while Africa had the lowest values in 2010.
+•	Income distribution shows Europe with the largest share of high-income earners, followed by upper middle-income groups, while Asia has a predominantly middle-income population. In the Americas, there are more people in middle and high-income groups, whereas Africa has the highest percentage of low-income earners. High-income earners across all regions typically have an average life expectancy over 70 years. In the Americas, life expectancy drops significantly from 73 years for lower middle-income earners to just 32 years for low-income earners, with no data available for low-income earners in Europe.
+•	In 2010, Japan had the highest life expectancy (82.9 years), while Haiti had the lowest (32.9 years). China’s population grew by 323% from 321 million in 1800 to 1.36 billion in 2010. The 10 smallest countries by population had fewer than 100,000 people, with Nauru being the smallest at 10,000.
+•	From 1900 to 2010, life expectancy, population, and GDP per capita have shown significant regional trends, with Europe consistently leading in both life expectancy and economic growth, while Africa lagged. High-income earners generally have longer life expectancies, and countries like China and Japan experienced remarkable population and economic growth over the past two centuries.
