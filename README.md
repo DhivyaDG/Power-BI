@@ -8,8 +8,8 @@ Key Insights: Life expectancy has increased across all regions, with Europe cons
 
 # Tools and Technologies
 Power BI: Used for data visualization and dashboard creation.<br>
-Datasets: Various public datasets from DataQuest
+Datasets: Various public datasets from DataQuest<br>
 Key Features:
-Interactive dashboards with filters and slicers.
-Visualizations such as bar charts, line graphs, and scatter plots to display trends.
+Interactive dashboards with filters and slicers.<br>
+Visualizations such as bar charts, line graphs, and scatter plots to display trends.<br>
 Data analysis through Power BI's DAX functions.
