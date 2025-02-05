@@ -7,7 +7,7 @@ Description: This project visualizes the correlation between life expectancy and
 Key Insights: Life expectancy has increased across all regions, with Europe consistently leading in both GDP and life expectancy. A strong positive correlation between GDP and life expectancy is observed globally.
 
 # Tools and Technologies
-Power BI: Used for data visualization and dashboard creation.
+Power BI: Used for data visualization and dashboard creation.<br>
 Datasets: Various public datasets from DataQuest
 Key Features:
 Interactive dashboards with filters and slicers.
